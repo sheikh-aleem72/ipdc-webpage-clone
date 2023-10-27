@@ -1,0 +1,177 @@
+:root{
+    --primary: #e42a94;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+}
+body{
+    height: 100vh;
+    width: min(100vw,1600px);
+   margin: auto;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background: url("/Assets/background-image.png");
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    
+}
+
+.navbar{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0px;
+}
+.logo{
+    margin-left: 70px;
+}
+.nav-items{
+    display: flex;
+}
+.nav-items li{
+    margin-right: 30px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.nav-items li:hover{
+    text-decoration: underline;
+}
+
+.nav-btn{
+    display: flex;
+    margin-right: 50px; 
+    align-items: center;
+}
+.nav-btn i{
+    padding: 10px;
+} 
+.nav-btn i img{
+    padding-top: 5px;
+}
+.services{
+    padding: 5px 10px;
+    font-size: 1em;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: var(--primary);
+}
+
+.content{
+    width: 100%;
+    height: 88%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 90px;
+    justify-content: flex-end;
+}
+.left-upper{
+    margin-bottom: 120px;
+}
+.left-upper h1{
+    font-size: 3.5em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.1em;
+}
+.left-upper p{
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.left-btn .apply{
+    padding: 5px 15px;
+    background: var(--primary);
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1em;
+}
+.left-btn .calculator{
+    padding: 5px 15px;
+    background: transparent;
+    border: 1px solid #a42b63f8;
+    border-radius: 2px;
+    color: #a42b63f8;
+    font-size: 1em;
+
+}
+
+.left-footer{
+    margin-bottom: 30px;
+    display: flex;
+}
+.left-footer i{
+    margin: 0 4px;
+   
+    cursor: pointer;
+}
+.left-footer i img{
+     width: 30px;
+}
+.left-footer span{
+    display: flex;
+   align-items: center;
+}
+.left-footer span img{
+    margin-right: 5px;
+    width: 30px;
+}
+.left-footer span span{
+    font-size: 1.4em;
+    opacity: 0.8;
+    
+    padding-right: 5px;
+    border-right: 2px solid gray;
+}
+
+
+.right{
+    position: relative;
+}
+
+.right img{
+    height: 100%;
+}
+
+.right button{
+    display: flex;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 2px gray;
+    background: #fff;
+    cursor: pointer;
+}
+.right button img{
+    width: 20px;
+    margin: 0 5px;
+}
+.car{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.house{
+    position: absolute;
+    top: 130px;
+    right: 130px;
+}
